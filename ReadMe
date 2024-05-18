@@ -1,0 +1,16 @@
+Cookies types=>
+1. Session Cookies
+Session cookies, also known as transient cookies, are temporary cookies that are created and stored in the user's browser for the duration of a session.
+
+Lifetime: They are deleted as soon as the user closes the browser.
+Use Case: Commonly used for maintaining the state of the user's session. For example, they keep the user logged in while navigating through different pages of a website.
+Storage: Stored in the browser's memory and not written to the hard drive.
+Security: Considered more secure than persistent cookies as they do not persist after the session ends, reducing the risk of them being accessed by unauthorized parties.
+
+2. Persistent Cookies
+Persistent cookies, also known as permanent cookies or stored cookies, remain on the user's device for a set period or until they are manually deleted by the user. 
+
+Lifetime: They have an expiration date set by the website, which can be days, months, or even years. They remain on the user's device until they expire or are deleted.
+Use Case: Often used for remembering user preferences and settings, login details, and tracking user behavior over a long period. For example, they can remember the user's language preference or keep the user logged in between sessions.
+Storage: Written to the user's hard drive and stored in a specific location depending on the browser.
+Security: While useful, they can pose a privacy risk as they persist over time and can potentially be accessed by unauthorized parties if not handled securely.
