@@ -32,11 +32,26 @@
     for (i = 0; i < arr.length; i++) {
       document.write(arr[i] + "<br>");
     }
-    document.write("<br> After sorting <br>");
+    document.write("<br> After sorting (ascending order)<br>");
 
     for (i = 0; i < arr.length; i++) {
       for (j = 0; j < arr.length - 1; j++) {
         if (arr[j] > arr[j + 1]) {
+          temp = arr[j];
+          arr[j] = arr[j + 1];
+          arr[j + 1] = temp;
+        }
+      }
+    }
+
+    for (i = 0; i < arr.length; i++) {
+      document.write(arr[i] + "<br>");
+    }
+
+    document.write("<br> After sorting (descending order)<br>");
+    for (i = 0; i < arr.length; i++) {
+      for (j = 0; j < arr.length - 1; j++) {
+        if (arr[j] < arr[j + 1]) {
           temp = arr[j];
           arr[j] = arr[j + 1];
           arr[j + 1] = temp;
