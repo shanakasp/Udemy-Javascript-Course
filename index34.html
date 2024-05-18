@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>29</title>
+  </head>
+  <body>
+    <script language="javascript" type="text/javascript">
+      var actualPin = 123,
+        pin,
+        count = 0;
+      do {
+        pin = prompt("Enter ur Pin...");
+        count++;
+      } while (pin != actualPin && count < 3);
+      if (pin == actualPin) {
+        document.write("Welcome to the Site");
+      } else {
+        document.write("Sorry, your Pin is wrong");
+      }
+    </script>
+  </body>
+</html>
